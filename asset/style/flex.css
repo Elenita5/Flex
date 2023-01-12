@@ -1,0 +1,68 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: rgb(218, 145, 145);
+    text-align: center;
+}
+header, h1 h2 {
+    color: rgb(160, 14, 109);
+}
+a{
+    text-decoration: none;
+    color: rgb(25, 24, 24);
+    display: block;
+    padding: 10px;
+}
+ul li {
+    border: 1px solid white;
+    width: 20%;
+}
+li a:hover{
+    color: rgb(245, 243, 244);
+    background-color: rgb(222, 100, 108);
+}
+main{
+    display:flex;
+    background-color: rgb(152, 221, 207);
+}
+aside{
+    text-align: center;
+}
+p{
+    text-align: justify; 
+}
+article{
+    display: flex;
+    /* Indique si les éléments flexibles sont contraints à être disposés sur une seule ligne ou s'ils peuvent être affichés sur plusieurs lignes avec un retour automatique */
+    flex-wrap: wrap;
+}
+article > *{
+    flex: 1 0 300px;
+}
+section p{
+    margin: 0;
+    border: 2px solid white;
+    height: 550px;
+    flex-wrap: wrap;
+}
+footer p{
+    text-align: center;
+}
+footer{
+    background-color: teal;
+    border: 1px solid turquoise;
+}
+#menu{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    justify-content: space-around;
+}
+#aside1{
+    background-color: yellow;
+}
+#aside2{
+    background-color: rgb(185, 178, 178);
+}
